@@ -42,12 +42,22 @@ a{
     width: fit-content;
     font-size: 4rem;
     position: relative;    
-    color:cornsilk
+    color: whitesmoke;
 }
 #hero .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: crimson;
+    color:white;
     background-color: transparent;
     border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+}
+#hero .cta:hover {
+    color: white;
+    background-color: crimson;
 }
